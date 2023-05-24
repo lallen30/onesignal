@@ -5,7 +5,7 @@ import OneSignal from 'onesignal-cordova-plugin';
 // Call this function when your app starts
 function OneSignalInit(): void {
   // Uncomment to set OneSignal device logging to VERBOSE  
-  // OneSignal.setLogLevel(6, 0);
+  OneSignal.setLogLevel(6, 0);
 
   // NOTE: Update the setAppId value below with your OneSignal AppId.
   OneSignal.setAppId("6b79dcc6-93fa-45ab-af96-eaed3a6fd091");

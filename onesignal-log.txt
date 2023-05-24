@@ -1,0 +1,205 @@
+2023-05-24 11:38:23.206210-0400 App[3616:2913019] WARNING: appId set, but please call setLaunchOptions(launchOptions) to complete OneSignal init!
+2023-05-24 11:38:23.217492-0400 App[3616:2913019] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///private/var/mobile/Containers/Data/Application/2BA0304D-8056-4737-AC34-195F758D7EA7/Library/Cookies/Cookies.binarycookies
+2023-05-24 11:38:23.354871-0400 App[3616:2913019] KeyboardPlugin: resize mode - native
+⚡️  Loading app at capacitor://localhost...
+⚡️  [log] - onscript loading complete
+⚡️  WebView loaded
+To Native Cordova ->  OneSignalPush setLogLevel OneSignalPush309453876 ["options": [6, 0]]
+To Native Cordova ->  OneSignalPush init OneSignalPush309453877 ["options": [6b79dcc6-93fa-45ab-af96-eaed3a6fd091]]
+2023-05-24 11:38:24.197209-0400 App[3616:2913019] VERBOSE: setAppId(id) called with appId: 6b79dcc6-93fa-45ab-af96-eaed3a6fd091!
+2023-05-24 11:38:24.197265-0400 App[3616:2913019] VERBOSE: setAppId(id) finished, checking if launchOptions has been set before proceeding...!
+2023-05-24 11:38:24.197288-0400 App[3616:2913019] VERBOSE: setAppId(id) successful and launchOptions are set, initializing OneSignal...
+2023-05-24 11:38:24.197454-0400 App[3616:2913019] DEBUG: OneSignal SessionManager initSessionFromCache
+2023-05-24 11:38:24.197498-0400 App[3616:2913019] DEBUG: InAppMessageTracker initInfluencedTypeFromCache: OSChannelTracker tag: iam_id influenceType: UNATTRIBUTED indirectIds: (null) directIds: (null)
+2023-05-24 11:38:24.197775-0400 App[3616:2913019] DEBUG: NotificationTracker initInfluencedTypeFromCache: OSChannelTracker tag: notification_id influenceType: UNATTRIBUTED indirectIds: (null) directIds: (null)
+2023-05-24 11:38:24.197869-0400 App[3616:2913019] DEBUG: SessionManager restored from cache with influences: (
+    "OSInfluence channel: IN_APP_MESSAGE influenceType: DISABLED ids:(null)",
+    "OSInfluence channel: NOTIFICATION influenceType: DISABLED ids:(null)"
+)
+2023-05-24 11:38:24.202592-0400 App[3616:2913019] DEBUG: Downloading iOS parameters for this application
+2023-05-24 11:38:24.207689-0400 App[3616:2913019] VERBOSE: Firing registerForRemoteNotifications
+2023-05-24 11:38:24.209699-0400 App[3616:2913417] VERBOSE: registerUserAfterDelay
+2023-05-24 11:38:24.212544-0400 App[3616:2913019] VERBOSE: registering for Application Lifecycle notifications
+2023-05-24 11:38:24.212661-0400 App[3616:2913019] VERBOSE: setLaunchOptions() called with launchOptions: (null)!
+2023-05-24 11:38:24.212729-0400 App[3616:2913019] VERBOSE: setLaunchOptions(id) finished, checking if appId has been set before proceeding...!
+2023-05-24 11:38:24.212892-0400 App[3616:2913019] VERBOSE: setLaunchOptions(launchOptions) successful and appId is set, initializing OneSignal...
+To Native Cordova ->  OneSignalPush setNotificationOpenedHandler OneSignalPush309453878 ["options": []]
+2023-05-24 11:38:24.213860-0400 App[3616:2913019] VERBOSE: Notification opened handler set successfully
+To Native Cordova ->  OneSignalPush promptForPushNotificationsWithUserResponse OneSignalPush309453879 ["options": [0]]
+2023-05-24 11:38:24.214090-0400 App[3616:2913019] VERBOSE: registerForPushNotifications Called:waitingForApnsResponse: 1
+2023-05-24 11:38:24.216287-0400 App[3616:2913418] VERBOSE: registerUserAfterDelay
+⚡️  To Native ->  App addListener 74214656
+2023-05-24 11:38:24.386716-0400 App[3616:2913019] VERBOSE: application/scene willResignActive
+2023-05-24 11:38:24.387006-0400 App[3616:2913019] VERBOSE: oneSignalDidRegisterForRemoteNotifications:deviceToken:
+2023-05-24 11:38:24.387130-0400 App[3616:2913019] INFO: Device Registered with Apple: 17f7a923a84fd534bccf25ab57d24f675e98a3aaa7588f30e7fa9a11393c459b
+2023-05-24 11:38:24.387331-0400 App[3616:2913019] VERBOSE: updateDeviceToken:onSuccess:onFailure:
+2023-05-24 11:38:24.387764-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:waitingForOneSReg: 0
+2023-05-24 11:38:24.387834-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isImmediatePlayerCreateOrOnSession: 1
+2023-05-24 11:38:24.387982-0400 App[3616:2913019] VERBOSE: registerUser:waitingForApnsResponse: 0
+2023-05-24 11:38:24.388841-0400 App[3616:2913019] VERBOSE: registerUser:initializationTime: 2023-05-24 15:38:24 +0000
+2023-05-24 11:38:24.388880-0400 App[3616:2913019] VERBOSE: registerUserNow
+2023-05-24 11:38:24.392080-0400 App[3616:2913019] VERBOSE: registerUserInternal
+2023-05-24 11:38:24.392171-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:waitingForOneSReg: 0
+2023-05-24 11:38:24.392207-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isImmediatePlayerCreateOrOnSession: 1
+2023-05-24 11:38:24.392255-0400 App[3616:2913019] DEBUG: Outcomes cleared for current session
+2023-05-24 11:38:24.393326-0400 App[3616:2913019] DEBUG: OneSignal SessionManager restartSessionIfNeeded with entryAction:: 2 channelTrackers: (
+)
+2023-05-24 11:38:24.393405-0400 App[3616:2913019] DEBUG: OneSignal SessionManager sendSessionEndingWithInfluences with influences: (
+)
+2023-05-24 11:38:24.394572-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:24.434673-0400 App[3616:2913019] DEBUG: provision: {
+    AppIDName = "Onesignal App";
+    ApplicationIdentifierPrefix =     (
+        CS8MH5S8BL
+    );
+    CreationDate = "2023-05-22 17:41:27 +0000";
+    "DER-Encoded-Profile" = {length = 3476, bytes = 0x30820d90 06092a86 4886f70d 010702a0 ... 0235e8f1 4523d2bc };
+    DeveloperCertificates =     (
+        {length = 1480, bytes = 0x308205c4 308204ac a0030201 0202106b ... eb7573be 62b691f7 },
+        {length = 1480, bytes = 0x308205c4 308204ac a0030201 02021035 ... c6a4db23 716685a1 }
+    );
+    Entitlements =     {
+        "application-identifier" = "CS8MH5S8BL.com.scruffy.oneSignal";
+        "aps-environment" = development;
+        "com.apple.developer.team-identifier" = CS8MH5S8BL;
+        "get-task-allow" = 1;
+        "keychain-access-groups" =         (
+            "CS8MH5S8BL.*",
+            "com.apple.token"
+        );
+    };
+    ExpirationDate = "2024-05-21 17:41:27 +0000";
+    IsXcodeManaged = 1;
+    Name = "iOS Team Provisioning Profile: com.scruffy.oneSignal";
+    PPQCheck = 1;
+    Platform =     (
+        iOS
+    );
+    ProvisionedDevices =     (
+        "00008030-000569900AF2802E"
+    );
+    TeamIdentifier =     (
+        CS8MH5S8BL
+    );
+    TeamName = "Larry Allen";
+    TimeToLive = 365;
+    UUID = "18539d9a-92d0-416b-abb6-49e80cf265e5";
+    Version = 1;
+}
+2023-05-24 11:38:24.434739-0400 App[3616:2913416] [Client] Updating selectors after delegate addition failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid 94 named com.apple.commcenter.coretelephony.xpc was invalidated from this process." UserInfo={NSDebugDescription=The connection to service with pid 94 named com.apple.commcenter.coretelephony.xpc was invalidated from this process.}
+2023-05-24 11:38:24.434944-0400 App[3616:2913019] VERBOSE: Not sending location with 'on_session' request payload, setLocationShared is false or lastLocation is null
+2023-05-24 11:38:24.435244-0400 App[3616:2913019] VERBOSE: Calling OneSignal create/on_session
+⚡️  To Native ->  Keyboard getResizeMode 74214657
+2023-05-24 11:38:24.437828-0400 App[3616:2913451] VERBOSE: HTTP Request (OSRequestRegisterUser) with URL: https://api.onesignal.com/players, with parameters: {
+  "app_id" : "6b79dcc6-93fa-45ab-af96-eaed3a6fd091",
+  "net_type" : 0,
+  "test_type" : 1,
+  "ios_bundle" : "com.scruffy.oneSignal",
+  "timezone_id" : "America\/New_York",
+  "tags" : {
+
+  },
+  "device_type" : 0,
+  "sdk_type" : "031204",
+  "sdk" : "031204",
+  "identifier" : "17f7a923a84fd534bccf25ab57d24f675e98a3aaa7588f30e7fa9a11393c459b",
+  "language" : "en-US",
+  "device_os" : "16.4.1",
+  "game_version" : "1.0",
+  "timezone" : -14400,
+  "notification_types" : -19,
+  "device_model" : "iPhone12,5",
+  "carrier" : "--"
+}
+⚡️  TO JS {"mode":"native"}
+2023-05-24 11:38:24.642283-0400 App[3616:2913418] [connection] nw_connection_copy_connected_local_endpoint_block_invoke [C5] Client called nw_connection_copy_connected_local_endpoint on unconnected nw_connection
+2023-05-24 11:38:24.642401-0400 App[3616:2913418] [connection] nw_connection_copy_connected_remote_endpoint_block_invoke [C5] Client called nw_connection_copy_connected_remote_endpoint on unconnected nw_connection
+2023-05-24 11:38:24.642494-0400 App[3616:2913418] [connection] nw_connection_copy_protocol_metadata_internal_block_invoke [C5] Client called nw_connection_copy_protocol_metadata_internal on unconnected nw_connection
+2023-05-24 11:38:24.644154-0400 App[3616:2913418] [tcp] tcp_output [C1.1.3.1:3] flags=[R.] seq=3127040873, ack=1037118047, win=2048 state=CLOSED rcv_nxt=1037118047, snd_una=3127040873
+2023-05-24 11:38:24.790931-0400 App[3616:2913417] [connection] nw_connection_copy_connected_local_endpoint_block_invoke [C4] Client called nw_connection_copy_connected_local_endpoint on unconnected nw_connection
+2023-05-24 11:38:24.791122-0400 App[3616:2913417] [connection] nw_connection_copy_connected_remote_endpoint_block_invoke [C4] Client called nw_connection_copy_connected_remote_endpoint on unconnected nw_connection
+2023-05-24 11:38:24.791172-0400 App[3616:2913417] [connection] nw_connection_copy_protocol_metadata_internal_block_invoke [C4] Client called nw_connection_copy_protocol_metadata_internal on unconnected nw_connection
+2023-05-24 11:38:24.839679-0400 App[3616:2913412] VERBOSE: network response (OSRequestGetIosParams): {
+    outcomes =     {
+        direct =         {
+            enabled = 0;
+        };
+        indirect =         {
+            enabled = 0;
+            "notification_attribution" =             {
+                limit = 10;
+                "minutes_since_displayed" = 60;
+            };
+        };
+        unattributed =         {
+            enabled = 0;
+        };
+    };
+    "receive_receipts_enable" = 0;
+    "uses_provisional_auth" = 0;
+}
+2023-05-24 11:38:25.000348-0400 App[3616:2913417] VERBOSE: network response (OSRequestRegisterUser): {
+    id = "51d5a7d9-f284-4a4a-a3b1-d5713cd16c4d";
+    success = 1;
+}
+2023-05-24 11:38:25.000509-0400 App[3616:2913417] VERBOSE: Request <OSRequestRegisterUser: 0x2813a8fc0> success result {
+    id = "51d5a7d9-f284-4a4a-a3b1-d5713cd16c4d";
+    success = 1;
+}
+2023-05-24 11:38:25.000662-0400 App[3616:2913019] VERBOSE: on_session result: {
+    push =     {
+        id = "51d5a7d9-f284-4a4a-a3b1-d5713cd16c4d";
+        success = 1;
+    };
+}
+2023-05-24 11:38:25.002634-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:25.003011-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:26.314553-0400 App[3616:2913418] DEBUG: internalGetLocation kCLAuthorizationStatusNotDetermined.
+2023-05-24 11:38:26.784381-0400 App[3616:2913019] VERBOSE: updateNotificationTypes called: 15
+2023-05-24 11:38:26.787136-0400 App[3616:2913019] VERBOSE: Firing registerForRemoteNotifications
+2023-05-24 11:38:26.787637-0400 App[3616:2913019] VERBOSE: startedRegister: 1
+2023-05-24 11:38:26.788009-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:26.790480-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:26.792677-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:26.794613-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:26.797697-0400 App[3616:2913019] VERBOSE: HTTP Request (OSRequestUpdateNotificationTypes) with URL: https://api.onesignal.com/players/51d5a7d9-f284-4a4a-a3b1-d5713cd16c4d, with parameters: {
+  "notification_types" : 31,
+  "app_id" : "6b79dcc6-93fa-45ab-af96-eaed3a6fd091"
+}
+2023-05-24 11:38:26.799625-0400 App[3616:2913019] VERBOSE: oneSignalDidRegisterForRemoteNotifications:deviceToken:
+2023-05-24 11:38:26.799909-0400 App[3616:2913019] INFO: Device Registered with Apple: 17f7a923a84fd534bccf25ab57d24f675e98a3aaa7588f30e7fa9a11393c459b
+2023-05-24 11:38:26.800046-0400 App[3616:2913019] VERBOSE: updateDeviceToken:onSuccess:onFailure:
+2023-05-24 11:38:26.800192-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:waitingForOneSReg: 0
+2023-05-24 11:38:26.800302-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isImmediatePlayerCreateOrOnSession: 0
+2023-05-24 11:38:26.800408-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isOnSessionSuccessfulForCurrentState: 1
+⚡️  [log] - User accepted notifications: true
+2023-05-24 11:38:27.096914-0400 App[3616:2913451] VERBOSE: network response (OSRequestUpdateNotificationTypes): {
+    success = 1;
+}
+2023-05-24 11:38:27.182519-0400 App[3616:2913019] VERBOSE: application/scene didBecomeActive
+2023-05-24 11:38:27.182751-0400 App[3616:2913019] DEBUG: Application Foregrounded started
+2023-05-24 11:38:27.182863-0400 App[3616:2913019] DEBUG: cancelFocusCall of {
+}
+2023-05-24 11:38:27.182964-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:waitingForOneSReg: 0
+2023-05-24 11:38:27.183037-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isImmediatePlayerCreateOrOnSession: 0
+2023-05-24 11:38:27.183113-0400 App[3616:2913019] VERBOSE: shouldRegisterNow:isOnSessionSuccessfulForCurrentState: 1
+2023-05-24 11:38:27.183203-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:27.186725-0400 App[3616:2913019] VERBOSE: getNotificationTypes:mSubscriptionStatus: -1
+2023-05-24 11:38:27.189586-0400 App[3616:2913019] DEBUG: OneSignal SessionManager attemptSessionUpgrade with entryAction: 1
+2023-05-24 11:38:27.189738-0400 App[3616:2913019] DEBUG: OneSignal SessionManager attemptSessionUpgrade try UNATTRIBUTED to INDIRECT upgrade
+2023-05-24 11:38:27.189878-0400 App[3616:2913019] DEBUG: OSChannelTracker for: notification_id lastChannelObjectReceived: (null)
+2023-05-24 11:38:27.189958-0400 App[3616:2913019] DEBUG: OSChannelTracker for: iam_id lastChannelObjectReceived: (null)
+2023-05-24 11:38:27.190102-0400 App[3616:2913019] DEBUG: Trackers after update attempt: (
+    "OSChannelTracker tag: notification_id influenceType: UNATTRIBUTED indirectIds: (null) directIds: (null)",
+    "OSChannelTracker tag: iam_id influenceType: UNATTRIBUTED indirectIds: (null) directIds: (null)"
+)
+2023-05-24 11:38:27.190170-0400 App[3616:2913019] DEBUG: OneSignal SessionManager sendSessionEndingWithInfluences with influences: (
+)
+2023-05-24 11:38:27.194764-0400 App[3616:2913019] VERBOSE: init redisplayedInAppMessages with: {
+}
+2023-05-24 11:39:56.354594-0400 App[3616:2913019] VERBOSE: onesignalUserNotificationCenter:willPresentNotification:withCompletionHandler:
+2023-05-24 11:39:56.354795-0400 App[3616:2913019] VERBOSE: onesignalUserNotificationCenter:willPresentNotification:withCompletionHandler: Fired! This is test 15
+2023-05-24 11:39:56.354945-0400 App[3616:2913019] VERBOSE: finishProcessingNotification: Fired!
+2023-05-24 11:39:56.355008-0400 App[3616:2913019] VERBOSE: Notification display type: 7
+2023-05-24 11:39:56.355090-0400 App[3616:2913019] VERBOSE: notificationReceived called! opened: NO
+2023-05-24 11:39:56.355631-0400 App[3616:2913019] VERBOSE: finishProcessingNotification: call completionHandler with options: 7
